@@ -2,11 +2,11 @@ package com.brigelabz.maximum;
 
 public class MaximumNumber {
 
-	private static Integer testMax(Integer x, Integer y, Integer z ) {
-		Integer a = x;
-		Integer b = y;
-		Integer c = z;
-		Integer max = a;
+	private static String testMax(String x, String y, String z ) {
+		String a = x;
+		String b = y;
+		String c = z;
+		String max = a;
 		
 		if(b.compareTo(max)>0) {
 			max = b; 
@@ -19,8 +19,8 @@ public class MaximumNumber {
 	}
 
 	public static void main(String[] args) {
-		int result = MaximumNumber.testMax(-10, -20, -30);
-		System.out.println("Maximum number is :" + result);
+		String result = MaximumNumber.testMax("apple", "peach","banana");
+		System.out.println("Maximum number is : " + result);
 
 	}
 
