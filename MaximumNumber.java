@@ -19,10 +19,9 @@ public class MaximumNumber {
 	}
 
 	public static void main(String[] args) {
-		int result = MaximumNumber.testMax(-10,-20,-30);
-		System.out.println("Maximum number is :"+result);
-		
-		
+		int result = MaximumNumber.testMax(-10, -20, -30);
+		System.out.println("Maximum number is :" + result);
+
 	}
 
 }
